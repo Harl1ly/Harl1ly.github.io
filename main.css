@@ -1,0 +1,92 @@
+main {
+	text-align: center;
+}
+
+a.r:hover {
+	font-size: 1.5em;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.na {
+	text-decoration: none;
+	color: black;
+}
+
+#top {
+	text-align: right;
+	padding: 30px;
+}
+
+#logo {
+	float: left;
+	font-size: large;
+	font-family: monospace;
+	font-weight: bold;
+	color: #260C1A;
+	padding: 10px 30px 10px 30px;
+}
+
+.r {
+	font-size: large;
+	font-family: monospace;
+	font-weight: bold;
+	color: #260C1A;
+	padding: 10px 30px 10px 30px;
+	text-decoration: none;
+}
+
+#hello {
+	padding: 100px;
+	display: inline-block;
+	text-align: left;
+	font-family: monospace;
+}
+
+.name {
+	font-size: 3em;
+	color: white;
+}
+
+h1.name:hover {
+	font-size: 6em;
+	color: #260C1A;
+	background-color: white;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+#intro {
+	display: inline-block;
+	text-align: left;
+	font-family: monospace;
+	font-size: 15px;
+}
+
+#detail {
+	border: 2px solid;
+	border-radius: 8px;
+	background-color: white;
+	padding: 20px;
+	margin-top: 40px;
+}
+
+#contact {
+	width: 500px;
+	border: 2px solid;
+	border-radius: 8px;
+	background-color: white;
+	padding: 20px;
+	line-height: 20px;
+	margin-top: 40px;
+}
+
+.la {
+	font-size: 1.1em;
+	font-family: monospace;
+	font-weight: bold;
+}
+
+.p1 {
+	font-size: 1.1em;
+}
