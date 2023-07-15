@@ -3,9 +3,10 @@ main {
 }
 
 a.r:hover {
-	font-size: 1.5em;
+	font-size: 1.2em;
 	background-color: white;
 	border-radius: 10px;
+	cursor: url(3.png), pointer;
 }
 
 .na {
@@ -13,18 +14,17 @@ a.r:hover {
 	color: black;
 }
 
-#top {
+.top {
 	text-align: right;
 	padding: 30px;
 }
 
 #logo {
 	float: left;
-	font-size: large;
-	font-family: monospace;
+	font-size: xx-large;
 	font-weight: bold;
 	color: #260C1A;
-	padding: 10px 30px 10px 30px;
+	padding:0px 30px 10px 30px;
 }
 
 .r {
@@ -32,28 +32,41 @@ a.r:hover {
 	font-family: monospace;
 	font-weight: bold;
 	color: #260C1A;
-	padding: 10px 30px 10px 30px;
+	padding: 10px 25px 10px 30px;
 	text-decoration: none;
 }
 
 #hello {
-	padding: 100px;
-	display: inline-block;
-	text-align: left;
-	font-family: monospace;
+	text-align: center;
+	font-family: 'Itim', monospace;
+	font-size: 20px;
+	color: #404040;
 }
 
-.name {
-	font-size: 3em;
-	color: white;
+#name {
+	font-family: 'Itim', monospace;
+	background-color: #fbeee0;
+  	border: 2px solid #422800;
+  	border-radius: 30px;
+  	box-shadow: #422800 4px 4px 0 0;
+  	color: #422800;
+  	cursor: pointer;
+  	display: inline-block;
+  	font-weight: 600;
+  	font-size: 1em;
+  	padding: 0 18px;
+  	line-height: 50px;
+  	text-align: center;
+  	text-decoration: none;
 }
 
-h1.name:hover {
-	font-size: 6em;
-	color: #260C1A;
-	background-color: white;
-	border-radius: 20px;
-	padding: 10px;
+a#name:hover {
+	background-color: #fff;
+	cursor: url(3.png), pointer;
+}
+
+a.na:hover {
+	cursor: url(3.png), pointer;
 }
 
 #intro {
